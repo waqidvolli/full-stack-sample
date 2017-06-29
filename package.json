@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/waqidvolli/full-stack-sample#readme",
   "dependencies": {
+    "axios": "^0.16.2",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
+    "json-loader": "^0.5.4",
     "mongodb": "^2.2.29",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
