@@ -1,0 +1,38 @@
+{
+  "name": "full-stack-sample",
+  "version": "1.0.0",
+  "description": "Node, React, MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev" : "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waqidvolli/full-stack-sample.git"
+  },
+  "author": "waqid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waqidvolli/full-stack-sample/issues"
+  },
+  "homepage": "https://github.com/waqidvolli/full-stack-sample#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^3.0.0"
+  }
+}
