@@ -1,0 +1,7 @@
+.ContestPreview {
+  margin: 1em;
+  border: 1px solid #ccc; }
+  .ContestPreview .category-name {
+    color: blue; }
+  .ContestPreview .contest-name {
+    color: green; }

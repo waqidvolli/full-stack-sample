@@ -1,16 +1,13 @@
-var env = process.env;
+// console.log('...config.js...');
 
-
-export default{
-	port: env.PORT || 8080
-};
-
+const env = process.env;
 
 export const nodeEnv = env.NODE_ENV || 'development';
 
-
-export const logStar = (m) => {
-	console.log('*****');
-	console.log(m);
-	console.log('*****');
-}
+export default {
+	port: env.PORT || 8080,
+	host: env.HOST || '0.0.0.0',
+	get serverUrl(){
+		return `http://${this.host}:${this.port}`;
+	}
+};

@@ -1,28 +1,26 @@
 {
-  "name": "full-stack-sample",
+  "name": "mongodb-node-react",
   "version": "1.0.0",
-  "description": "Node, React, MongoDB",
+  "description": "learn full stack using mongodb, node and react",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
     "dev": "webpack -wd"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/waqidvolli/full-stack-sample.git"
-  },
+  "keywords": [
+    "mongodb",
+    "node",
+    "react"
+  ],
   "author": "waqid",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/waqidvolli/full-stack-sample/issues"
-  },
-  "homepage": "https://github.com/waqidvolli/full-stack-sample#readme",
   "dependencies": {
     "axios": "^0.16.2",
-    "ejs": "^2.5.6",
+    "ejs": "^2.5.7",
     "express": "^4.15.3",
-    "json-loader": "^0.5.4",
-    "mongodb": "^2.2.29",
+    "json-loader": "^0.5.7",
+    "mongodb": "^2.2.30",
+    "node-sass-middleware": "^0.11.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
@@ -33,9 +31,9 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "eslint": "^4.1.1",
+    "eslint": "^4.3.0",
     "eslint-plugin-react": "^7.1.0",
     "nodemon": "^1.11.0",
-    "webpack": "^3.0.0"
+    "webpack": "^3.4.1"
   }
 }
